@@ -18,7 +18,7 @@ public class AwsSnsConfig {
     @Bean
     @Primary
     public AmazonSNSClient amazonSNSClient(){
-       return (AmazonSNSClient) AmazonSNSClientBuilder.standard().withRegion(Regions.US_EAST_1).withCredentials(new AWSStaticCredentialsProvider(new BasicAWSCredentials("AKIAUM6DFR4GWA3XAFQ3","ytP6IUV2jIOPnYABjQZdcZa0+cnRDoS5IQuy7eGL"))).build();
+       return (AmazonSNSClient) AmazonSNSClientBuilder.standard().withRegion(Regions.US_EAST_1).withCredentials(new AWSStaticCredentialsProvider(new BasicAWSCredentials("AKIAUM6DFR4GWA3XAFQ3KKKKKK--tytrtttt","ytP6IUV2jIOPnYABjQZdcZa0+cnRDoS5IQuy7eGLKKKKK"))).build();
     }
 
 }
